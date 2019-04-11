@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8D5B50DA225FE1EC00BF8141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B50D9225FE1EC00BF8141 /* AppDelegate.swift */; };
-		8D5B50DC225FE1EC00BF8141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B50DB225FE1EC00BF8141 /* ViewController.swift */; };
+		8D5B50DC225FE1EC00BF8141 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B50DB225FE1EC00BF8141 /* ShoppingViewController.swift */; };
 		8D5B50DF225FE1EC00BF8141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B50DD225FE1EC00BF8141 /* Main.storyboard */; };
 		8D5B50E1225FE1EF00BF8141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B50E0225FE1EF00BF8141 /* Assets.xcassets */; };
 		8D5B50E4225FE1EF00BF8141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B50E2225FE1EF00BF8141 /* LaunchScreen.storyboard */; };
+		8D5B50EE225FEC2100BF8141 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B50ED225FEC2100BF8141 /* SettingsViewController.swift */; };
+		8D5B50F0225FEC3D00BF8141 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B50EF225FEC3D00BF8141 /* TaxesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D5B50D6225FE1EC00BF8141 /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B50D9225FE1EC00BF8141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D5B50DB225FE1EC00BF8141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D5B50DB225FE1EC00BF8141 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		8D5B50DE225FE1EC00BF8141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D5B50E0225FE1EF00BF8141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5B50E3225FE1EF00BF8141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5B50E5225FE1EF00BF8141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5B50ED225FEC2100BF8141 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8D5B50EF225FEC3D00BF8141 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,9 @@
 		8D5B50EB225FE21100BF8141 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B50DB225FE1EC00BF8141 /* ViewController.swift */,
+				8D5B50DB225FE1EC00BF8141 /* ShoppingViewController.swift */,
+				8D5B50ED225FEC2100BF8141 /* SettingsViewController.swift */,
+				8D5B50EF225FEC3D00BF8141 /* TaxesViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -151,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B50DC225FE1EC00BF8141 /* ViewController.swift in Sources */,
+				8D5B50F0225FEC3D00BF8141 /* TaxesViewController.swift in Sources */,
+				8D5B50DC225FE1EC00BF8141 /* ShoppingViewController.swift in Sources */,
 				8D5B50DA225FE1EC00BF8141 /* AppDelegate.swift in Sources */,
+				8D5B50EE225FEC2100BF8141 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
