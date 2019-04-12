@@ -111,9 +111,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Q8-tw-yAB">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Q8-tw-yAB">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="303"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -184,12 +183,15 @@
                             <constraint firstItem="QcW-uj-nXG" firstAttribute="leading" secondItem="mCQ-ww-YPR" secondAttribute="leading" constant="90" id="0g5-oz-zPw"/>
                             <constraint firstItem="gSe-Mt-SeS" firstAttribute="leading" secondItem="mCQ-ww-YPR" secondAttribute="leading" constant="90" id="4IP-ug-DBK"/>
                             <constraint firstItem="mDx-wq-WGa" firstAttribute="leading" secondItem="mCQ-ww-YPR" secondAttribute="leading" constant="20" id="Ffc-cW-ZHu"/>
+                            <constraint firstItem="mCQ-ww-YPR" firstAttribute="trailing" secondItem="4Q8-tw-yAB" secondAttribute="trailing" id="GTV-7e-IJF"/>
                             <constraint firstItem="xi7-Fb-1S7" firstAttribute="leading" secondItem="mCQ-ww-YPR" secondAttribute="leading" constant="128" id="ITH-4L-C18"/>
                             <constraint firstItem="mCQ-ww-YPR" firstAttribute="trailing" secondItem="gSe-Mt-SeS" secondAttribute="trailing" constant="90" id="IgI-MK-sQH"/>
+                            <constraint firstItem="4Q8-tw-yAB" firstAttribute="top" secondItem="Pmc-pf-Lkh" secondAttribute="top" id="N6o-by-goW"/>
                             <constraint firstItem="mCQ-ww-YPR" firstAttribute="trailing" secondItem="QcW-uj-nXG" secondAttribute="trailing" constant="90" id="Rwk-4p-laW"/>
                             <constraint firstItem="mCQ-ww-YPR" firstAttribute="trailing" secondItem="xi7-Fb-1S7" secondAttribute="trailing" constant="128" id="TRX-Mm-xqP"/>
                             <constraint firstItem="mDx-wq-WGa" firstAttribute="top" secondItem="xi7-Fb-1S7" secondAttribute="bottom" constant="8" id="Xrp-6p-EVl"/>
                             <constraint firstItem="mCQ-ww-YPR" firstAttribute="trailing" secondItem="wO1-zm-kGE" secondAttribute="trailing" constant="20" id="dK0-by-v08"/>
+                            <constraint firstItem="4Q8-tw-yAB" firstAttribute="leading" secondItem="mCQ-ww-YPR" secondAttribute="leading" id="egJ-Pq-eJb"/>
                             <constraint firstItem="mCQ-ww-YPR" firstAttribute="trailing" secondItem="mDx-wq-WGa" secondAttribute="trailing" constant="20" id="gZa-hD-rNX"/>
                             <constraint firstItem="zu5-DZ-zWP" firstAttribute="top" secondItem="QcW-uj-nXG" secondAttribute="bottom" constant="8" id="haN-dC-Vy0"/>
                             <constraint firstItem="zu5-DZ-zWP" firstAttribute="leading" secondItem="mCQ-ww-YPR" secondAttribute="leading" constant="20" id="log-Ay-FKb"/>
